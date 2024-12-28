@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: #eaeaf0;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#container {
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+
+.inputBox {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.inputs {
+    width: 100%;
+    height: 35px;
+    padding-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+label {
+    width: 50%;
+    display: block;
+}
+
+.addInputs {
+    width: 90%;
+    height: 30px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.addBtn {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(45, 140, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 60px;
+    height: 30px;
+    background-color: rgb(45, 140, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+#main1 {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#colorTheme {
+    width: 40%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#colorHeading {
+    margin-bottom: 10px;
+}
+
+#colorName {
+    width: 40%;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-transform: none;
+    padding-left: 5px;
+}
+
+#setColor {
+    width: 70px;
+    height: 25px;
+    background-color: rgb(45, 140, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#mainContainer {
+    width: 70%;
+    height: auto;
+    border: 15px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px;
+}
+
+#container1 {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+#addressBox {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addressText {
+    margin-right: 10px;
+}
+
+#numberBox {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.numberText,
+#getNumber {
+    margin-right: 10px;
+}
+
+.border {
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.border1 {
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+
+.hide {
+    display: none !important;
+}

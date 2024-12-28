@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main">
+    <div id="container">
+      <div id="form">
+        <div class="inputBox">
+          <label>Full Name</label>
+          <input type="text" id="name" class="inputs" placeholder="Full Name">
+        </div>
+        <div class="inputBox">
+          <label>Address</label>
+          <input type="text" id="address" class="inputs" placeholder="Address">
+        </div>
+        <div class="inputBox">
+          <label>Phone Number</label>
+          <input type="number" id="number" class="inputs" placeholder="Phone Number">
+        </div>
+  
+  
+        <div class="inputBox">
+          <label>Objective</label>
+          <input type="text" id="objective" class="inputs" placeholder="Objective">
+        </div>
+  
+        <div class="inputBox">
+          <label>Qualification</label>
+          <input type="text" id="qualification" class="inputs addInputs" placeholder="Enter Qualification">
+          <button id="addQualification" class="addBtn">Add More</button>
+        </div>
+  
+        <div class="inputBox">
+          <label>Experience</label>
+          <input type="text" id="experience" class="inputs addInputs" placeholder="Enter Experience">
+          <button id="addExperience" class="addBtn">Add More</button>
+        </div>
+  
+        <div class="inputBox">
+          <label>Diploma/Course</label>
+          <input type="text" id="course" class="inputs addInputs" placeholder="Enter Diploma/Course">
+          <button id="addCourse" class="addBtn">Add More</button>
+        </div>
+  
+        <div class="inputBox">
+          <label>Skills</label>
+          <input type="text" id="skills" class="inputs addInputs" placeholder="Enter Skills">
+          <button id="addSkills" class="addBtn">Add More</button>
+        </div>
+  
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="main1" class="hide">
+    <div id="colorTheme">
+      <h1 id="colorHeading">Change color theme</h1>
+      <input type="text" id="colorName" placeholder="Color Name or #fff">
+      <button id="setColor">Set Color</button>
+
+    </div>
+    <div id="mainContainer">
+      <div id="container1">
+        <h1 id="getName"></h1>
+        <div id="addressBox">
+          <p class="addressText"><b>address:</b></p>
+          <p id="getAddress"></p>
+        </div>
+
+        <div id="numberBox">
+          <p class="numberText"><b>Number:</b></p>
+          <p id="getNumber"></p>
+        </div>
+
+        <div class="border"></div>
+        <h3 class="heading">Objective:</h3>
+        <div class="border1"></div>
+
+        <p id="getObjective"></p>
+
+        <div class="border"></div>
+        <h3 class="heading">Qualification:</h3>
+        <div class="border1"></div>
+        <ul id="qualificationUL"></ul>
+
+        <div class="border"></div>
+        <h3 class="heading">Experience:</h3>
+        <div class="border1"></div>
+        <ul id="experienceUL"></ul>
+
+        <div class="border"></div>
+        <h3 class="heading">Diploma/Course:</h3>
+        <div class="border1"></div>
+        <ul id="courseUL"></ul>
+
+        <div class="border"></div>
+        <h3 class="heading">Skills:</h3>
+        <div class="border1"></div>
+        <ul id="skillsUL"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
