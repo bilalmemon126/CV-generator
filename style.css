@@ -54,18 +54,42 @@ label {
 
 .addInputs {
     width: 90%;
-    height: 30px;
+    height: 35px;
     padding-left: 5px;
     margin-top: 5px;
 }
 
 .addBtn {
     width: 70px;
-    height: 30px;
+    height: 35px;
     background-color: rgb(45, 140, 255);
     color: white;
     border: none;
     border-radius: 5px;
+}
+.appendItem{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+.paraBox{
+    width: max-content;
+    min-height: 30px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: #eaeaf0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+}
+.dlt{
+    border: none;
+    cursor: pointer;
 }
 
 #submit {
