@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 18px;
 }
 
 #container {
@@ -60,7 +61,7 @@ label {
 }
 
 .addBtn {
-    width: 70px;
+    width: 8%;
     height: 35px;
     background-color: rgb(45, 140, 255);
     color: white;
@@ -71,7 +72,6 @@ label {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    /* border: 2px solid black; */
 }
 .paraBox{
     width: max-content;
@@ -110,6 +110,8 @@ label {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 18px;
+    padding: 50px 0;
 }
 
 #colorTheme {
@@ -136,7 +138,7 @@ label {
 }
 
 #setColor {
-    width: 70px;
+    width: 15%;
     height: 25px;
     background-color: rgb(45, 140, 255);
     color: white;
@@ -208,4 +210,133 @@ ul {
 
 .hide {
     display: none !important;
+}
+
+
+
+@media only screen and (max-width: 576px){
+    #container{
+        width: 90%;
+    }
+    label{
+        font-size: 0.7em;
+    }
+    .addInputs{
+        width: 77%;
+    }
+    .addBtn{
+        width: 21%;
+        padding: 3px;
+        font-size: 0.55em;
+    }
+
+    #colorTheme {
+        width: 70%;
+    }
+    #colorHeading {
+        font-size: 1.1em;
+    }
+    #colorName {
+        width: 50%;
+    }
+    
+    #setColor {
+        width: 25%;
+        font-size: 0.6em;
+    }
+
+    #mainContainer{
+        width: 90%;
+    }
+    #container1 p, h3, li{
+        font-size: 0.7em;
+    }
+    #container1 h1{
+        font-size: 0.9em;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    #container{
+        width: 90%;
+    }
+    label{
+        font-size: 0.8em;
+    }
+    .addInputs{
+        width: 80%;
+    }
+    .addBtn{
+        width: 18%;
+        font-size: 0.7em;
+    }
+
+    #colorTheme {
+        width: 60%;
+    }
+    #colorHeading {
+        font-size: 1.7em;
+    }
+    #colorName {
+        width: 45%;
+    }
+    
+    #setColor {
+        width: 20%;
+        font-size: 0.7em;
+    }
+
+    #mainContainer{
+        width: 90%;
+    }
+    #container1 p, h3, li{
+        font-size: 0.8em;
+    }
+    #container1 h1{
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px){
+    #container{
+        width: 80%;
+    }
+    label{
+        font-size: 0.9em;
+    }
+    .addInputs{
+        width: 85%;
+    }
+    .addBtn{
+        width: 13%;
+        font-size: 0.7em;
+    }
+
+    #colorTheme {
+        width: 50%;
+    }
+    #colorHeading {
+        font-size: 1.8em;
+    }
+    #colorName {
+        width: 45%;
+    }
+    
+    #setColor {
+        width: 20%;
+        font-size: 0.9em;
+    }
+
+    #mainContainer{
+        width: 80%;
+    }
+    #container1 p, h3, li{
+        font-size: 0.9em;
+    }
+    #container1 h1{
+        font-size: 1.1em;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    #container{
+        width: 85%;
+    }
 }
